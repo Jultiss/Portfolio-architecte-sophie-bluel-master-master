@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Sophie Bluel - Architecte d'intérieur</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap" rel="stylesheet">
+	<meta name="description" content="">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/login.css">
+</head>
+<body>
+<header>
+	<h1><a href="index.html">Sophie Bluel</a><span>Architecte d'intérieur</span></h1>
+	<nav>
+		<ul>
+			<li><a href="index.html#portfolio">projets</a></li>
+			<li><a href="index.html#contact">contact</a></li>
+			<li><a class="login-btn" href="login.html">login</a></li>
+			<li><a class="logout-btn" href="#">logout</a></li>
+			<li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<form class="login" action="#" method="post">
+		<div class="logintitle">
+			<h2>Log In</h2>
+		</div>
+		<div class="container">
+			<label for="email"><b>E-mail</b></label>
+			<input class="imput" type="email" placeholder="" id="email" name="email" required>
+			<label for="psw"><b>Mot de passe</b></label>
+			<input class="imput" type="password" placeholder="" id="psw" name="psw" required>
+			<button class="btn-connect" type="submit">Se connecter</button>
+		</div>
+		<p class ="forgotpwd"><a href="#">Mot de passe oublié</a></p>
+	</form>
+	</main>
+<footer class = "footer-login">
+	<nav>
+		<ul>
+			<li>Mentions Légales</li>
+		</ul>
+	</nav>
+</footer>
+<script src="login.js"></script>
+</body>
+</html>
